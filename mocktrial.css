@@ -5,17 +5,17 @@ body {
     height: 100%;
    line-height: 1.725;
     margin: 0;
-    max-width: 1200px;
+    width: 100%;
    text-rendering: geometricPrecision;
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
+   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
     font-weight: 400;
 }
 
 h1 {
     background-color: #480607;
     padding: .5em;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-family: "Menlo", "Meslo LG", monospace;
     color: #FFFFFF;
     text-align: center; 
     width: 420px;
@@ -26,7 +26,7 @@ h1 {
 h2 { 
     background-color: #480607;
     color: #FAF0CD;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-align: center;
     margin: 1em 0 0.5em;
     border-bottom: 2px dashed #FAF0CD;
@@ -53,10 +53,11 @@ nav {
     color: #480607;
     font-size: 1em;
     text-align: center;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav a { 
     text-decoration: none; 
+
 }
 p { 
     font-family: "Menlo", "Meslo LG", monospace;
@@ -73,9 +74,8 @@ p {
     margin: 0;
     padding: 0;
     height: 100%;
-    border-top: 2px solid rgb(201 202 204);
+    width: 100%;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
 }
   .feature { 
     color: #C70000; 
@@ -100,8 +100,7 @@ p {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    text-indent: 3em;
-    max-width: 1280px;
+    text-indent: .5em;
     padding-right: 10px;
     padding-left: 10px;
 }
