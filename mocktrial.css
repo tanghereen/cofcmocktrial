@@ -4,7 +4,7 @@ body {
     font-family: "Menlo", "Meslo LG", monospace;
     height: 100%;
    line-height: 1.725;
-    margin: 2rem auto;
+    margin: 1rem auto;
     width: 100%;
    text-rendering: geometricPrecision;
    box-sizing: border-box;
@@ -68,7 +68,7 @@ p {
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
   html {
     margin: auto;
@@ -89,7 +89,7 @@ p {
     padding: 1em;
     padding-top: 10px;
     font-family: "Menlo", "Meslo LG", monospace;
-    margin: 2rem auto;
+    margin: 1rem auto;
 }
   .company {
     font-weight: bold;
@@ -117,7 +117,7 @@ p {
     text-indent: .5em; 
     width: 90%;
     max-width: 75ch;
-    margin: 2rem auto;
+    margin: 1rem auto;
    font-family: "Menlo", "Meslo LG", monospace;
 }
   blockquote {
@@ -129,7 +129,7 @@ p {
   }
   blockquote p {
     font-size: 1.25rem;
-    margin: 2rem auto;
+    margin: 1rem auto;
     text-align: center;
   }
   hr {	
@@ -141,7 +141,7 @@ p {
     text-indent: .5em; 
     width: 90%;
     max-width: 75ch;
-    margin: 2rem auto;
+    margin: 1rem auto;
    font-family: "Menlo", "Meslo LG", monospace;
   }
 img {
