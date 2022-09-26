@@ -1,14 +1,15 @@
 body { 
     background-color: #480607;
     color: #461212;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    line-height: 200%;
-    margin-right: auto;
-    margin-left:  auto;
+    font-family: "Menlo", "Meslo LG", monospace;
+    height: 100%;
+   line-height: 1.725;
+    margin: 0;
     max-width: 1200px;
-    padding-right: 5px;
-    padding-left:  5px;
+   text-rendering: geometricPrecision;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
 }
 
 h1 {
@@ -69,7 +70,7 @@ p {
     margin: 0;
     padding: 0;
     height: 100%;
-    border-top: 2px solid #c9cacc;
+    border-top: 2px solid rgb(201 202 204);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
