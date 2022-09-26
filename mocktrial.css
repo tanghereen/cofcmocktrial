@@ -88,7 +88,7 @@ p {
     text-align: center;
     padding: 1em;
     padding-top: 10px;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
 }
   .company {
     font-weight: bold;
@@ -118,7 +118,7 @@ p {
     width: 90%;
     max-width: 75ch;
     margin: 2rem auto;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-family: "Menlo", "Meslo LG", monospace;
 }
   blockquote {
     padding: 2rem;
@@ -142,8 +142,8 @@ p {
     width: 90%;
     max-width: 75ch;
     margin: 2rem auto;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-}
+   font-family: "Menlo", "Meslo LG", monospace;
+  }
 img {
     display: block;
     margin: auto;
