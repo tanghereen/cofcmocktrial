@@ -1,20 +1,21 @@
 body { 
     background-color: #480607;
     color: #461212;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-    line-height: 200%;
-    margin-right: auto;
-    margin-left:  auto;
-    max-width: 1200px;
-    padding-right: 5px;
-    padding-left:  5px;
-    box-sizing: border-box;
+    font-family: "Menlo", "Meslo LG", monospace;
+    height: 100%;
+   line-height: 1.725;
+    margin: 1rem auto;
+    width: 100%;
+   text-rendering: geometricPrecision;
+   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+    font-weight: 400;
 }
 
 h1 {
     background-color: #480607;
     padding: .5em;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-family: "Menlo", "Meslo LG", monospace;
     color: #FFFFFF;
     text-align: center; 
     width: 420px;
@@ -25,7 +26,7 @@ h1 {
 h2 { 
     background-color: #480607;
     color: #FAF0CD;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
     text-align: center;
     margin: 1em 0 0.5em;
     border-bottom: 2px dashed #FAF0CD;
@@ -52,26 +53,29 @@ nav {
     color: #480607;
     font-size: 1em;
     text-align: center;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav a { 
     text-decoration: none; 
+
 }
 p { 
-    text-indent: 3em; 
-    width: 90%;
-    max-width: 75ch;
-    margin: 2rem auto;
-    font-size: 14pt;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
+    height: 100%;
+   line-height: 1.725;
+    max-width: 1200px;
+   text-rendering: geometricPrecision;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    margin: 1rem auto;
 }
   html {
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: auto;
     height: 100%;
-    border-top: 2px solid #c9cacc;
+    width: 80%;
     -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
 }
   .feature { 
     color: #C70000; 
@@ -84,20 +88,20 @@ p {
     text-align: center;
     padding: 1em;
     padding-top: 10px;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-family: "Menlo", "Meslo LG", monospace;
+    margin: 1rem auto;
 }
   .company {
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  #wrapper {
+#wrapper {
     background-color: #FAF0CD;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    text-indent: 3em;
-    max-width: 1280px;
+    text-indent: .5em;
     padding-right: 10px;
     padding-left: 10px;
 }
@@ -110,11 +114,10 @@ p {
 }
   ul {
     font-size: 12pt;
-    text-indent: 3em; 
-    width: 90%;
+    width: 50%;
     max-width: 75ch;
-    margin: 2rem auto;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    margin: 1rem auto;
+   font-family: "Menlo", "Meslo LG", monospace;
 }
   blockquote {
     padding: 2rem;
@@ -125,7 +128,7 @@ p {
   }
   blockquote p {
     font-size: 1.25rem;
-    margin: 0;
+    margin: 1rem auto;
     text-align: center;
   }
   hr {	
@@ -134,12 +137,12 @@ p {
   }
   ol {
     font-size: 12pt;
-    text-indent: 3em; 
-    width: 90%;
+    text-indent: .5em; 
+    width: 50%;
     max-width: 75ch;
-    margin: 2rem auto;
-    font-family: 'Zen Kaku Gothic Antique', sans-serif;
-}
+    margin: 1rem auto;
+   font-family: "Menlo", "Meslo LG", monospace;
+  }
 img {
     display: block;
     margin: auto;
