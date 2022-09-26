@@ -114,8 +114,7 @@ p {
 }
   ul {
     font-size: 12pt;
-    text-indent: .5em; 
-    width: 90%;
+    width: 50%;
     max-width: 75ch;
     margin: 1rem auto;
    font-family: "Menlo", "Meslo LG", monospace;
@@ -139,7 +138,7 @@ p {
   ol {
     font-size: 12pt;
     text-indent: .5em; 
-    width: 90%;
+    width: 50%;
     max-width: 75ch;
     margin: 1rem auto;
    font-family: "Menlo", "Meslo LG", monospace;
